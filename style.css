@@ -47,6 +47,13 @@ header {
   padding: 5px 15px;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
 }
+
+/* Scroll spy active state */
+.nav-menu ul.navbar-nav li.nav-item a.active {
+  color: #70aed2;
+}
+/* End of Scroll spy active state */
+
 /* ######## End of Navbar ######### */
 
 /* ######## Banner ########### */

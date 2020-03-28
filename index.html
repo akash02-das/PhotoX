@@ -25,12 +25,12 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="45">
     <!-- ########## Header ########### -->
-    <header>
+    <header id="home">
       <!-- #### Navbar #### -->
       <nav class="navbar navbar-expand-lg fixed-top nav-menu">
-        <a href="#" class="navbar-brand text-light text-uppercase"
+        <a href="#home" class="navbar-brand text-light text-uppercase"
           ><span class="h2 font-weight-bold ">photo</span
           ><span class="h1 text-success">X</span></a
         >
@@ -50,25 +50,27 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
+              <a href="#home" class="nav-link m-2 menu-item">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item">Mission</a>
+              <a href="#mission" class="nav-link m-2 menu-item">Mission</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item">Collection</a>
+              <a href="#collection" class="nav-link m-2 menu-item"
+                >Collection</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item">Gallery</a>
+              <a href="#gallery" class="nav-link m-2 menu-item">Gallery</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item">Customers</a>
+              <a href="#customer" class="nav-link m-2 menu-item">Customers</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item">Pricing</a>
+              <a href="#pricing" class="nav-link m-2 menu-item">Pricing</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item">Contact</a>
+              <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
             </li>
           </ul>
         </div>
@@ -90,7 +92,7 @@
     <!-- ########## End of Header ########### -->
 
     <!-- ########### Mission ############# -->
-    <section class="p-5 mission">
+    <section class="p-5 mission" id="mission">
       <div class="container-fluid">
         <!-- Title -->
         <div class="row text-white text-center">
@@ -161,7 +163,7 @@
     <!-- ########### End of Mission ############# -->
 
     <!-- ######### collection ######### -->
-    <section class="bg-secondary py-4">
+    <section class="bg-secondary py-4" id="collection">
       <div class="container-fluid">
         <!-- Title -->
         <div class="row text-white text-center">
@@ -255,7 +257,7 @@
     <!-- ######### end of collection ######### -->
 
     <!-- ####### Gallery ######## -->
-    <section class="py-5">
+    <section class="py-5" id="gallery">
       <div class="container-fluid">
         <!-- Title -->
         <div class="row text-muted text-center">
@@ -346,7 +348,7 @@
     <!-- ####### End of Gallery ######## -->
 
     <!-- ############# Customer ############ -->
-    <section class="p-5 customers">
+    <section class="p-5 customers" id="customer">
       <div class="container-fluid">
         <!-- Title -->
         <div class="row text-white text-center">
@@ -489,7 +491,7 @@
     <!-- ############# End of Customer ############ -->
 
     <!-- ########### Pricing Section ############# -->
-    <section class="bg-light text-center p-5">
+    <section class="bg-light text-center p-5" id="pricing">
       <div class="container-fluid">
         <!-- Title -->
         <div class="row text-muted text-center">
@@ -609,7 +611,7 @@
     <!-- ########## End of Pricing Section ########### -->
 
     <!-- ########## Contact Section ########## -->
-    <section class="contact p-5">
+    <section class="contact p-5" id="contact">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-5 pb-4">
